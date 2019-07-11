@@ -1,0 +1,241 @@
+*{
+	font-size: 16px;
+	font-family: Bahnschrift Light;
+	
+}
+
+*=============================================
+SECCION 1
+=============================================*/
+
+header {
+	margin: 10px;
+}
+
+#logo  {
+	margin-left: 100px;
+
+}
+
+/* enlaces a REDES SOCIALES*/
+.social a {
+	color:#707070FF;
+	float: right;
+	margin-right: 5%;
+	margin-top: -3%;
+	font-size:25px ;
+	display: inline-block;
+	padding-top: 0%;
+	margin-bottom: 2%;
+
+
+}
+
+.social a:hover{
+	background-color: #68BBD8;
+	border-radius: 100%;	
+	transition: .8s;
+
+}	
+
+/*BOTON INICIAR SESION*/
+
+.btn-default {
+	background-color: #FFFFFF60;
+	font-family: "Montserrat", sans-serif;
+	float:right;
+	margin-right: 25%;
+	
+	color: black ;
+	display: inline-block;
+	padding: 16px 41px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-color: #CCC	;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: white;
+	transition: all .6s;
+	color: #1e99d5;
+	display: inline-block;
+	padding: 16px 41px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+
+
+
+
+body{
+background-color: whitesmoke;
+}
+
+.container {
+	max-width: 450px;
+	height: auto;
+	background: rgba(92,188,210,0.69);
+	background: -moz-linear-gradient(top, rgba(92,188,210,0.69) 0%, rgba(92,188,210,0.8) 37%, rgba(73,155,234,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(92,188,210,0.69)), color-stop(37%, rgba(92,188,210,0.8)), color-stop(100%, rgba(73,155,234,1)));
+	background: -webkit-linear-gradient(top, rgba(92,188,210,0.69) 0%, rgba(92,188,210,0.8) 37%, rgba(73,155,234,1) 100%);
+	background: -o-linear-gradient(top, rgba(92,188,210,0.69) 0%, rgba(92,188,210,0.8) 37%, rgba(73,155,234,1) 100%);
+	background: -ms-linear-gradient(top, rgba(92,188,210,0.69) 0%, rgba(92,188,210,0.8) 37%, rgba(73,155,234,1) 100%);
+	background: linear-gradient(to bottom, rgba(92,188,210,0.69) 0%, rgba(92,188,210,0.8) 37%, rgba(73,155,234,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cbcd2', endColorstr='#499bea', GradientType=0 );
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+	
+}
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 35px;
+}
+
+
+h2 span {
+	color: #F39B53;
+
+}
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+.input, .btn__submit, .btn__reset{
+	background-color: #fff;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+	border-radius: 51px 51px 51px 51px;
+	-moz-border-radius: 51px 51px 51px 51px;
+	-webkit-border-radius: 51px 51px 51px 51px;
+	border: 0px solid #000000;
+
+}
+
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
+
+.btn__submit, .btn__reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #ccc;
+	color: white;
+}
+
+.btn__reset {
+	background-color: #EDA135;
+
+}
+
+.btn__submit:hover {
+	background-color: #0E6D83;
+}
+
+.btn__reset:hover{
+	background-color: #CCC;
+}
+
+
+/*=============================================
+SECCION 5 footer
+=============================================*/
+
+footer {
+	background:#383838FF ;
+	padding-left: 5%;
+	padding-right: 4%;
+	margin-left: -2%;
+	width: 100%;
+}
+
+footer .caja {
+	background:#383838FF ;
+	box-sizing: border-box;
+	width: 32.33%;
+	margin:0%; 
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5%;
+}
+
+footer img{
+	background:#383838FF ;
+	height: 100%;
+
+}	
+footer p {
+	background:#383838FF ;
+	font-size: 18px;
+	color: white;
+}
+
+footer a {
+	background:#383838FF ;	
+	font-size: 18px;
+	padding: 0%;}
+
+	footer a:hover{
+		background-color:#1e99d5 ;
+		transition: all .6s;
+		color: #1e99d5;
+	}
+
+	footer h3 {
+		background:#383838FF ;
+		font-size: 20px;
+		color: white;
+	}
+
+	footer .autores {
+		background:#383838FF ;
+		margin-top: 5%;
+		margin-bottom: 0%;
+
+	}
